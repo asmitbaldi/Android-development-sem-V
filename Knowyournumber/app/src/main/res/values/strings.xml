@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Know your number</string>
+    <string name="enter_number">Enter number</string>
+    <string name="b1">Factorial</string>
+    <string name="b2">Even/Odd</string>
+    <string name="check_button">Check</string>
+    <string name="result">Result</string>
+    <string name="name">Made by Asmit</string>
 </resources>
