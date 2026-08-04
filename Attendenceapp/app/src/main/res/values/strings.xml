@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Attendence app</string>
+    <string name="name">Made by Asmit</string>
+    <string name="a1">Hussain</string>
+    <string name="a2">Hussain</string>
+    <string name="a3">Hussain</string>
+    <string name="a4">Hussain</string>
+    <string name="a5">Hussain</string>
+    <string name="a6">Hussain</string>
+    <string name="a7">Hussain</string>
+    <string name="a8">Hussain</string>
+    <string name="a9">Hussain</string>
+    <string name="a10">Hussain</string>
+    <string name="a11">Hussain</string>
+    <string name="a12">Hussain</string>
+    <string name="b1">All present</string>
+    <string name="b2">All absent</string>
+    <string name="b3">Submit</string>
+</resources>
