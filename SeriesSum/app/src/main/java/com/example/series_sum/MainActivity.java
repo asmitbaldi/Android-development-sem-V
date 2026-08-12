@@ -1,5 +1,6 @@
-package com.example.knowyournumber;
+package com.example.series_sum;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,9 +14,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    Button b1, b2;
-    EditText numberInput;
-    TextView resultText;
+
+    Button b1;
+    EditText e1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,36 +28,20 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        b1 = findViewById(R.id.button);
+        e1 = findViewById(R.id.editTextNumberDecimal);
 
-        b1 = findViewById(R.id.b1);
-        b2 = findViewById((R.id.b2));
-        numberInput = findViewById(R.id.numberInput);
-        resultText = findViewById(R.id.resultText);
-₹
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                double a, fact = 1;
-                String s1 = numberInput.getText().toString();
-                a = Double.parseDouble(s1);
-                for (int i = 1; i <= a; i++) {
-                    fact = fact * i;
+                double n = Double.parseDouble(e1.getText().toString());
+                double s = 0;
+                for(int i = 1; i<=n; i++) {
+                    s = s + 1.0 / (i);
                 }
-                resultText.setText("Factorial is: " + fact);
-            }
-        });
-
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                double a;
-                String s2 = numberInput.getText().toString();
-                a = Double.parseDouble((s2));
-                if (a % 2 == 0) {
-                    resultText.setText("Even");
-                } else {
-                    resultText.setText(("Odd"));
-                }
+                Intent Intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent.putExtra("",s);
+                startActivity(Intent);
             }
         });
     }

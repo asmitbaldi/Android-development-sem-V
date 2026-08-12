@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Series-Sum</string>
+    <string name="m1">Made by Asmit</string>
+    <string name="m2">Result</string>
+    <string name="m3">Input N</string>
+    <string name="b1">SUM THE SERIES</string>
+    <string name="b2">Return</string>
+</resources>
