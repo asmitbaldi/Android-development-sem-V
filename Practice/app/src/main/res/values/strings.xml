@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Practice</string>
+    <string name="m1">Made by Asmit</string>
+    <string name="b1">Event Registration</string>
+    <string name="b2">Score Analyzer</string>
+    <string name="b3">Event Feedback</string>
+    <string name="b4">Change Color</string>
+    <string name="m2">Campus Event Manager</string>
+    <string name="m3">Registration Details</string>
+    <string name="b5">Calculate Fee</string>
+    <string name="m4">https://www.coursera.org/</string>
 </resources>
