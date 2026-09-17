@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GroceryStore</string>
+    <string name="m1">GROCERY LIST FOR</string>
+    <string name="m2">Choose date</string>
+    <string name="m3">Made by Asmit</string>
+</resources>

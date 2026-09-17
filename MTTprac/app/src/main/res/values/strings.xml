@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MTT prac</string>
+    <string name="e1">Enter Any Number</string>
+
+    <string name="c1">1</string>
+    <string name="c2">2</string>
+    <string name="c3">3</string>
+    <string name="c4">4</string>
+    <string name="c5">5</string>
+    <string name="c6">6</string>
+    <string name="c7">7</string>
+    <string name="c8">8</string>
+    <string name="c9">9</string>
+    <string name="c10">10</string>
+
+    <string name="b1">Done</string>
+    <string name="b2">Reset</string>
+
+    <string name="t1">Made By Priyansh</string>
+</resources>

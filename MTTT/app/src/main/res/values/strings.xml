@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MTT1_F042</string>
+    <string name="m1">Made by Asmit</string>
+    <string name="m2">Enter yes or no</string>
+    <string name="b1">Ok</string>
+    <string name="m4">Asmit</string>
+    <string name="m5">Baldi</string>
+    <string name="m6">Red</string>
+    <string name="m7">Green</string>
+    <string name="b2">Submit</string>
+</resources>
