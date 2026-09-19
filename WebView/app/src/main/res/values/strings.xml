@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WebView</string>
+    <string name="m1">Made by Asmit</string>
+    <string name="b1">Static HTML</string>
+    <string name="b2">Remote web page content</string>
+    <string name="m2">Enter url</string>
+    <string name="b3">Display</string>
 </resources>
