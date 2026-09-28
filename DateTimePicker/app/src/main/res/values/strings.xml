@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DateTimePicker</string>
+    <string name="t1">Made by Asmit</string>
+    <string name="t2">Employee Info</string>
+    <string name="t3">Data from file will appear here</string>
+    <string name="e1">Employee Name</string>
+    <string name="e2">Department</string>
+    <string name="e3">Date of Birth</string>
+    <string name="e4">Project Name</string>
+    <string name="e5">Submission Time</string>
+    <string name="b1">Select DOB</string>
+    <string name="b2">Go to Project Details</string>
+    <string name="b3">Select Time</string>
+    <string name="b4">Write to File</string>
+    <string name="b5">Read from File</string>
+    <string name="m1">Please fill all fields</string>
+    <string name="m2">Please enter project details</string>
+    <string name="m3">Saved to</string>
+    <string name="m4">Error writing file</string>
+    <string name="m5">Data retrieved</string>
+    <string name="m6">Error reading file</string>
+</resources>
